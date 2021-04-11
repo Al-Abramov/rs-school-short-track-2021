@@ -18,7 +18,7 @@ function encodeLine(str) {
     } else if (num === 0) {
       newStr += str[i];
     } else {
-      newStr += (num++) + str[i];
+      newStr += (num + 1) + str[i];
       num = 0;
     }
   }
